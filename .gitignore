@@ -1,5 +1,5 @@
 /dataset/
 .idea
 *.yml
-
+/task3.py
 *.sh

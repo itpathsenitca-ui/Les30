@@ -9,7 +9,6 @@ faces = []
 labels = []
 label_map = {}
 current_label = 0
-# Проходим по всем папкам внутри dataset
 for person_name in os.listdir(dataset_path):
     person_folder = os.path.join(dataset_path, person_name)
 
