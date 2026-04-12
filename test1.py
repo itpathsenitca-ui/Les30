@@ -5,7 +5,6 @@ for i in range(100):
     print(f"save{i}.jpg")
 print("data set is ready")
 print("hello")
-<<<<<<< HEAD
 print("1")
 print("2")
 print("3")
@@ -24,7 +23,6 @@ print("15")
 print("16")
 print("17")
 print("18")
-=======
 print("hello and godbay and also my English is the best in the world")
->>>>>>> 11e00db7868e329f28541bf8d37a36fb55b21ebb
 print("super idol ble ble ble")
+print("fr")
