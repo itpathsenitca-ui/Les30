@@ -8,7 +8,7 @@ dataset_path = "dataset"
 faces = []
 labels = []
 label_map = {}
-current_label = 0
+current_label = 1
 for person_name in os.listdir(dataset_path):
     person_folder = os.path.join(dataset_path, person_name)
 
@@ -28,11 +28,7 @@ print(f"Загружено {len(faces)} изображений для {current_l
 
 # Создаём и обучаем LBPH-распознаватель
 recognizer = cv2.face.LBPHFaceRecognizer_create(
-    radius=2,
-    neighbors=8,
-    grid_x=8,
-    grid_y=8,
-    threshold=80
+    radius=2, neighbors=8, grid_x=8, grid_y=8, threshold=80
 )
 
 print("Обучение...")
