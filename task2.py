@@ -28,11 +28,7 @@ print(f"Загружено {len(faces)} изображений для {current_l
 
 # Создаём и обучаем LBPH-распознаватель
 recognizer = cv2.face.LBPHFaceRecognizer_create(
-    radius=2,
-    neighbors=8,
-    grid_x=8,
-    grid_y=8,
-    threshold=80
+    radius=2, neighbors=8, grid_x=8, grid_y=8, threshold=80
 )
 
 print("Обучение...")
