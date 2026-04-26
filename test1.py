@@ -1,32 +1,96 @@
-print("task1")
-print("Admin is Maxim")
-print("Hello from Y")
-for i in range(100):
-    print(f"save{i}.jpg")
-print("data set is ready")
-print("hello")
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
-print("6")
-print("7")
-print("8")
-print("9")
-print("10")
-print("11")
-print("12")
-print("13")
-print("14")
-print("15")
-print("16")
-print("17")
-print("18")
-print("hello and godbay and also my English is the best in the world")
-print("super idol ble ble ble")
-print("fr")
-print("fro real")
-print("1234567890")
-print("fro real")
-print("1234567890")
+print(
+    "task1"
+)
+print(
+    "Admin is Maxim"
+)
+print(
+    "Hello from Y"
+)
+for i in range(
+    100
+):
+    print(
+        f"save{i}.jpg"
+    )
+print(
+    "data set is ready"
+)
+print(
+    "hello"
+)
+print(
+    "1"
+)
+print(
+    "2"
+)
+print(
+    "3"
+)
+print(
+    "4"
+)
+print(
+    "5"
+)
+print(
+    "6"
+)
+print(
+    "7"
+)
+print(
+    "8"
+)
+print(
+    "9"
+)
+print(
+    "10"
+)
+print(
+    "11"
+)
+print(
+    "12"
+)
+print(
+    "13"
+)
+print(
+    "14"
+)
+print(
+    "15"
+)
+print(
+    "16"
+)
+print(
+    "17"
+)
+print(
+    "18"
+)
+print(
+    "hello and godbay and also my English is the best in the world"
+)
+print(
+    "super idol ble ble ble"
+)
+print(
+    "fr"
+)
+print(
+    "fro real"
+)
+print(
+    "1234567890"
+)
+print(
+    "fro real"
+)
+print(
+    "1234567890"
+)

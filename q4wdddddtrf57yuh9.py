@@ -1,1 +1,3 @@
-print("ggwp")
+print(
+    "ggwp"
+)

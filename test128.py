@@ -1,2 +1,6 @@
-print("progress:100%")
-print("truck")
+print(
+    "progress:100%"
+)
+print(
+    "truck"
+)
