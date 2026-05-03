@@ -11,7 +11,6 @@ cv2.createTrackbar("Vmax","setting",0,255,noth)
 def range():
     return  (cv2.getTrackbarPos("Hmin","setting"),
                 cv2.getTrackbarPos("Smin","setting"),
-                cv2.getTrackbarPos("Vmin", "setting"),)
-(cv2.getTrackbarPos("Hmax","setting"),
+                cv2.getTrackbarPos("Vmin", "setting")),(cv2.getTrackbarPos("Hmax","setting"),
                 cv2.getTrackbarPos("Smax","setting"),
                 cv2.getTrackbarPos("Vmax", "setting"),)
