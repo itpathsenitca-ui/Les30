@@ -14,9 +14,7 @@ def range():
             cv2.getTrackbarPos("Vmin","setting")),
 (cv2.getTrackbarPos("Hmax","setting"),
             cv2.getTrackbarPos("Smax","setting"),
-            cv2.getTrackbarPos("Vmax","setting"))
-
-
-
-
-
+            cv2.getTrackbarPos("Vmax","setting")),
+    while True:
+        img1 = cv2.imread("./img/photo_5447115728428405764_y.jpg")
+        img2 = cv2.imread("./img/photo_5447115728428405765_y.jpg")
